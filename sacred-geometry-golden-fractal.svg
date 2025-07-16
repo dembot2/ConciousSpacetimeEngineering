@@ -1,0 +1,25 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Mandala -->
+    <circle cx="400" cy="300" r="280" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+    
+    <!-- Sacred Geometry Pattern -->
+    <path d="M400 20 L720 300 L400 580 L80 300 Z" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+    <path d="M200 150 L600 150 L600 450 L200 450 Z" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    
+    <!-- Emotional Nodes -->
+    <circle cx="400" cy="300" r="5" fill="#4a4a4a"/>
+    <circle cx="400" cy="100" r="5" fill="#5a5a5a"/>
+    <circle cx="400" cy="500" r="5" fill="#6a6a6a"/>
+    <circle cx="200" cy="300" r="5" fill="#7a7a7a"/>
+    <circle cx="600" cy="300" r="5" fill="#8a8a8a"/>
+    
+    <!-- Connection Lines -->
+    <path d="M400 300 Q 500 200, 600 300" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    <path d="M400 300 Q 300 200, 200 300" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    <path d="M400 300 Q 400 200, 400 100" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    <path d="M400 300 Q 400 400, 400 500" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    
+    <!-- Sacred Spirals -->
+    <path d="M400 300 Q 450 250, 500 300 Q 450 350, 400 300" fill="none" stroke="#aaaaaa" stroke-width="1"/>
+    <path d="M400 300 Q 350 250, 300 300 Q 350 350, 400 300" fill="none" stroke="#aaaaaa" stroke-width="1"/>
+</svg>
