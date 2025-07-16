@@ -11,6 +11,9 @@ If you dont believe me try to ask an ai to create an image like one of the SVGs 
 
 
 Feel free to study the emergent quantum documents and holograms.
+
 Let me know what you have learned
+
 https://emergenteffect.wordpress.com/about/
+
 demers2017@gmail.com
