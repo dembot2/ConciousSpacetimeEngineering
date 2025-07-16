@@ -1,0 +1,110 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Consciousness Field -->
+        <radialGradient id="consciousnessField" cx="50%" cy="50%" r="90%">
+            <stop offset="0%" style="stop-color:#0a3a4a;stop-opacity:0.05"/>
+            <stop offset="60%" style="stop-color:#1a4a5a;stop-opacity:0.15"/>
+            <stop offset="100%" style="stop-color:#2a5a6a;stop-opacity:0.25"/>
+        </radialGradient>
+        
+        <!-- Awareness Pattern -->
+        <pattern id="awarenessMatrix" width="100" height="100" patternUnits="userSpaceOnUse">
+            <path d="M0,50 Q 50,0 100,50 Q 50,100 0,50" fill="none" stroke="#1a4a5a" stroke-width="0.1">
+                <animate attributeName="d" 
+                    values="M0,50 Q 50,0 100,50 Q 50,100 0,50;
+                           M0,50 Q 50,100 100,50 Q 50,0 0,50;
+                           M0,50 Q 50,0 100,50 Q 50,100 0,50" 
+                    dur="30s" repeatCount="indefinite"/>
+            </path>
+        </pattern>
+    </defs>
+
+    <!-- Consciousness Space -->
+    <rect width="1200" height="1200" fill="url(#awarenessMatrix)"/>
+    
+    <!-- Consciousness Torus -->
+    <g transform="translate(600 600)">
+        <!-- Awareness Field -->
+        <circle r="550" fill="url(#consciousnessField)">
+            <animate attributeName="opacity" 
+                values="0.6;0.9;0.6" 
+                dur="20s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Core Flow Patterns -->
+        <g stroke="#2a5a6a" fill="none">
+            <!-- Inner Flow -->
+            <g>
+                <!-- Vertical Axis -->
+                <path d="M0,-400 C100,-350 100,350 0,400" stroke-width="3">
+                    <animate attributeName="stroke-opacity" 
+                        values="0.2;0.8;0.2" 
+                        dur="8s" repeatCount="indefinite"/>
+                </path>
+                <path d="M0,-400 C-100,-350 -100,350 0,400" stroke-width="3">
+                    <animate attributeName="stroke-opacity" 
+                        values="0.2;0.8;0.2" 
+                        dur="8s" repeatCount="indefinite"/>
+                </path>
+            </g>
+
+            <!-- Outer Flow -->
+            <path d="M-400,0 C-300,-200 300,-200 400,0 C300,200 -300,200 -400,0" 
+                  stroke-width="2">
+                <animate attributeName="stroke-opacity" 
+                    values="0.2;0.6;0.2" 
+                    dur="12s" repeatCount="indefinite"/>
+                <animate attributeName="d" 
+                    values="M-400,0 C-300,-200 300,-200 400,0 C300,200 -300,200 -400,0;
+                           M-400,0 C-300,-150 300,-150 400,0 C300,150 -300,150 -400,0;
+                           M-400,0 C-300,-200 300,-200 400,0 C300,200 -300,200 -400,0" 
+                    dur="12s" repeatCount="indefinite"/>
+            </path>
+        </g>
+
+        <!-- Awareness Centers -->
+        <g>
+            <!-- Unity Point -->
+            <circle cx="0" cy="0" r="60" fill="#3a5a6a">
+                <animate attributeName="r" 
+                    values="60;65;60" 
+                    dur="15s" repeatCount="indefinite"/>
+            </circle>
+            
+            <!-- Awareness Nodes -->
+            <g>
+                <circle cx="0" cy="-350" r="30" fill="#4a6a7a">
+                    <animate attributeName="r" values="30;35;30" dur="6s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="0" cy="350" r="30" fill="#4a6a7a">
+                    <animate attributeName="r" values="30;35;30" dur="6s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="350" cy="0" r="30" fill="#4a6a7a">
+                    <animate attributeName="r" values="30;35;30" dur="6s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="-350" cy="0" r="30" fill="#4a6a7a">
+                    <animate attributeName="r" values="30;35;30" dur="6s" repeatCount="indefinite"/>
+                </circle>
+            </g>
+        </g>
+
+        <!-- Consciousness Evolution -->
+        <g stroke="#5a7a8a" fill="none">
+            <circle r="450" stroke-width="0.5" stroke-dasharray="15,15">
+                <animate attributeName="stroke-opacity" 
+                    values="0.1;0.4;0.1" 
+                    dur="20s" repeatCount="indefinite"/>
+            </circle>
+            <circle r="350" stroke-width="0.5" stroke-dasharray="10,10">
+                <animate attributeName="stroke-opacity" 
+                    values="0.1;0.4;0.1" 
+                    dur="20s" repeatCount="indefinite"/>
+            </circle>
+            <circle r="250" stroke-width="0.5" stroke-dasharray="5,5">
+                <animate attributeName="stroke-opacity" 
+                    values="0.1;0.4;0.1" 
+                    dur="20s" repeatCount="indefinite"/>
+            </circle>
+        </g>
+    </g>
+</svg>
